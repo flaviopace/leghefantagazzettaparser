@@ -5,8 +5,8 @@ book = openpyxl.load_workbook(sys.argv[1])
 
 sheet = book.active
 
-cellsa = sheet['B7': 'B145']
-cellsb = sheet['G7': 'G145']
+cellsa = sheet['B7': 'B147']
+cellsb = sheet['G7': 'G147']
 
 giocatorirose = []
 

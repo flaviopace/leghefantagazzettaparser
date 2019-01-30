@@ -1,6 +1,7 @@
 import openpyxl
 import sys
 
+# La lista delle rose della tua lega
 book = openpyxl.load_workbook(sys.argv[1])
 
 sheet = book.active
@@ -28,6 +29,7 @@ getLegaList(cellsb, giocatorirose)
 
 print giocatorirose
 
+# le quotazioni
 book = openpyxl.load_workbook(sys.argv[2])
 
 sheet = book.active
